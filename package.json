@@ -4,7 +4,9 @@
   "description": "Test bed for GET-POST-PUT-DELETE",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/JD-Fuller/SpellBook/issues"
   },
-  "homepage": "https://github.com/JD-Fuller/SpellBook#readme"
+  "homepage": "https://github.com/JD-Fuller/SpellBook#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
